@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab切换demo</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
+</head>
+<body>
+<div class="pc-mod-business-scene" id="pc-mod-business-scene">
+    <div class="l-wrapper">
+        <h2 class="pc-mod-title">标题</h2>
+        <div class="pc-mod-title-describe">描述</div>
+        <!--四个tab-->
+        <div class="pc-mod-tab-container">
+            <div class="pc-mod-tab">
+                <div class="pc-mod-tab-social pc-mod-tab-item-cur">tab1</div>
+                <div class="pc-mod-tab-live">tab2</div>
+                <div class="pc-mod-tab-im">tab3</div>
+                <div class="pc-mod-tab-contact">tab4</div>
+            </div>
+        </div>
+        <!--tab对应的内容-->
+        <div class="pc-mod-business-scene-list pc-mod-tab-content">
+            <div class="pc-mod-business-scene-item pc-mod-business-scene-application" style="z-index: 1">1111</div>
+            <div class="pc-mod-business-scene-item pc-mod-business-scene-live" style="z-index: 0">2222</div>
+            <div class="pc-mod-business-scene-item pc-mod-business-scene-im" style="z-index: 0">3333</div>
+            <div class="pc-mod-business-scene-item pc-mod-business-scene-contact" style="z-index: 0">4444</div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./js/main.js"></script>
+</html>

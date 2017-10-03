@@ -1,0 +1,45 @@
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, button, input, select, textarea {
+    color: rgb(73, 93, 100);
+    font: 14px/1.42857 "PingFangSC-light", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    outline: 0px none;
+}
+
+code, kbd, pre, samp, tt {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+ul, ol {
+    list-style: outside none none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+img {
+    vertical-align: top;
+    border: 0px none;
+}
+
+a {
+    color: rgb(43, 152, 252);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: rgb(42, 100, 150);
+    text-decoration: none;
+    outline: medium none;
+}
